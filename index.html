@@ -43,37 +43,39 @@
       <h2>
         About me
       </h2>
-      <div class="about-img">
-        <img src="imgs/IMG_20190808_081656775_BURST000_COVER_TOP.jpg" />
-      </div>
-      <div class="about-text">
-        <p>
-          I'm a PhD in Gophysics graduated from the
-          <a href="http://www.unsj.edu.ar/">Universidad Nacional de San Juan
-          </a>
-          and now I have a post-doctoral scholarship by
-          <a href="https://www.conicet.gov.ar/">CONICET</a>.
-        </p>
+      <div class="about">
+        <div class="about-img">
+          <img src="imgs/IMG_20190808_081656775_BURST000_COVER_TOP.jpg" />
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a PhD in Gophysics graduated from the
+            <a href="http://www.unsj.edu.ar/">Universidad Nacional de San Juan
+            </a>
+            and now I have a post-doctoral scholarship by
+            <a href="https://www.conicet.gov.ar/">CONICET</a>.
+          </p>
 
-        <p>
-          During my PhD I worked in applied geophysics, processing and analyzing
-          gravity and magnetic data at the
-          <a href="http://http//igsv.unsj.edu.ar/">Instituto Geofísico Sismológico
-            Volponi
-          </a>.
-          During my current postdoctoral research, I'm studying the subduction
-          zones through geodynamical numerical modeling.
-        </p>
-        <p>
-          I'm also try to contribute on open-source projects, like
-          <a href="https://www.fatiando.org/">Fatiando a Terra </a>, to improve
-          science openness and reproducibility.
-        </p>
-        <p>
-          When I'm not researching or coding I like to spend time outdoors doing
-          rock climbing, trekking and or kayaking.
-          I consider myself an amateur artist as well.
-        </p>
+          <p>
+            During my PhD I worked in applied geophysics, processing and analyzing
+            gravity and magnetic data at the
+            <a href="http://http//igsv.unsj.edu.ar/">Instituto Geofísico Sismológico
+              Volponi
+            </a>.
+            During my current postdoctoral research, I'm studying the subduction
+            zones through geodynamical numerical modeling.
+          </p>
+          <p>
+            I'm also try to contribute on open-source projects, like
+            <a href="https://www.fatiando.org/">Fatiando a Terra </a>, to improve
+            science openness and reproducibility.
+          </p>
+          <p>
+            When I'm not researching or coding I like to spend time outdoors doing
+            rock climbing, trekking and or kayaking.
+            I consider myself an amateur artist as well.
+          </p>
+        </div>
       </div>
     </section>
     <!-- End "About me" section -->
@@ -81,7 +83,7 @@
     <!-- Start education section -->
     <section>
       <h2>Education</h2>
-      <article class="course">
+      <div class="container">
         <div class="year"> 2019 - 2021 </div>
         <div class="details">
           <p>
@@ -94,11 +96,11 @@
             by numerical models.
           </p>
         </div>
-      </article>
+      </div>
 
-      <article class="course">
+      <div class="container">
         <div class="year"> 2014 - 2019 </div>
-        <div>
+        <div class="details">
           <p><b>PhD in Geophysics</b></p>
           <p>
             FCEFyN,
@@ -110,10 +112,10 @@
             Argentina.
           </p>
         </div>
-      </article>
-      <article class='course'>
+      </div>
+      <div class='container'>
         <div class='year'> 2005 - 2014 </div>
-        <div>
+        <div class="details">
           <p><b>Licentiate in Physics</b></p>
           <p>
             FCEIyA,
@@ -121,16 +123,16 @@
             </a>, Argentina.
           </p>
         </div>
-      </article>
+      </div>
     </section>
     <!-- End education section -->
 
     <!-- Start teaching section -->
     <section>
       <h2>Teaching</h2>
-      <article class="course">
+      <div class="container">
         <div class="year"> 2019 - Present </div>
-        <div>
+        <div class="details">
           <p><b>Physics I y Physics II</b></p>
           <p>
             <a href="http://exactas.unsj.edu.ar/">FCEFyN, Universidad Nacional
@@ -139,11 +141,11 @@
             Assistant professor of practice.
           </p>
         </div>
-      </article>
+      </div>
 
-      <article class="course">
+      <div class="container">
         <div class="year"> 2017 </div>
-        <div>
+        <div class="details">
           <p>
             <b>
               <a href="https://santisoler.github.io/teaching/latex.html">
@@ -153,90 +155,131 @@
             </b>
           </p>
         </div>
-      </article>
+      </div>
     </section>
     <!-- End teaching section -->
 
     <!-- Start publication section -->
     <section>
       <h2>Last publications</h2>
-      <article class="course">
-        <div>
-          <h4>Pliocene to Quaternary Retroarc Extension in the Neuquén Basin:
-            Geophysical Characterization of the Loncopué Trough.
-          </h4>
-          Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
-          <em>Opening and closure of the Neuquén Basin in the Southern Andes,
-            Springer</em> (2020).
-          doi:
-          <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
-            10.1007/978-3-030-29680-3
-          </a>
+        <div class="container paper">
+          <div class="year">2020</div>
+          <div class="details">
+            <h4>Pliocene to Quaternary Retroarc Extension in the Neuquén Basin:
+              Geophysical Characterization of the Loncopué Trough.
+            </h4>
+            <ul>
+                <li class="authors">
+                  Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
+                </li>
+                <li class="journal">
+                  Opening and closure of the Neuquén Basin in the Southern Andes, Springer
+                </li>
+                <li class="doi">
+                  doi:
+                  <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
+                    10.1007/978-3-030-29680-3
+                  </a>
+                </li>
+            </ul>
+          </div>
         </div>
-      </article>
 
-      <article class="course">
-        <div>
-          <h4>Plume Subduction Beneath the Neuquén Basin and the Last
-            Mountain Building Stage of the Southern Central Andes
-          </h4>
-          Gianni, G; Pesce, A; García, H. P. A; Lupari, M; Correa-Otto, S; Nacif, S; Folguera, A.
-          <em>Opening and Closure of the Neuquén Basin in the Southern Andes,
-            Springer </em> (2020).
-          doi:
-          <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
-            10.1007/978-3-030-29680-3
-          </a>
+        <div class="container paper">
+          <div class="year">2020</div>
+          <div class="details">
+            <h4>Plume Subduction Beneath the Neuquén Basin and the Last
+              Mountain Building Stage of the Southern Central Andes
+            </h4>
+            <ul>
+                <li class="authors">
+                  Gianni, G; Pesce, A; García, H. P. A; Lupari, M; Correa-Otto, S; Nacif, S; Folguera, A.
+                </li>
+                <li class="journal">
+                  Opening and Closure of the Neuquén Basin in the Southern Andes, Springer
+                </li>
+                <li class="doi">
+                  doi:
+                  <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
+                    10.1007/978-3-030-29680-3
+                  </a>
+                </li>
+            </ul>
+          </div>
         </div>
-      </article>
 
-      <article class="course">
-        <div>
-          <h4>Magnetic characterization of a retroarc extensional basin:
-            The Loncopué Trough.
-          </h4>
-          Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
-          <em>Journal of South American Earth Sciences</em> (2019).
-          doi:
-          <a href="https://www.doi.org/10.1016/j.jsames.2018.11.001">
-            10.1016/j.jsames.2018.11.001
-          </a>
+        <div class="container paper">
+          <div class="year">2019</div>
+          <div class="details">
+            <h4>Magnetic characterization of a retroarc extensional basin:
+              The Loncopué Trough.
+            </h4>
+            <ul>
+                <li class="authors">
+                  Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
+                </li>
+                <li class="journal">
+                  Journal of South American Earth Sciences
+                </li>
+                <li class="doi">
+                  doi:
+                  <a href="https://www.doi.org/10.1016/j.jsames.2018.11.001">
+                    10.1016/j.jsames.2018.11.001
+                  </a>
+                </li>
+            </ul>
+          </div>
         </div>
-      </article>
 
-      <article class="course">
-        <div>
-          <h4>Modelo preliminar 3-D de susceptibilidad magnética del volcán
-            Tromen.
-          </h4>
-          Pesce, A; Lupari, M; Gianni, G; Nacif, S; Gimenez, M.
-          <em>Revista de la Asociación Geológica Argentina</em> (2019).
+        <div class="container paper">
+          <div class="year">2019</div>
+          <div class="details">
+            <h4>Modelo preliminar 3-D de susceptibilidad magnética del volcán
+              Tromen.
+            </h4>
+            <ul>
+                <li class="authors">
+                  Pesce, A; Lupari, M; Gianni, G; Nacif, S; Gimenez, M.
+                </li>
+                <li class="journal">
+                  Revista de la Asociación Geológica Argentina
+                </li>
+            </ul>
+          </div>
         </div>
-      </article>
 
-      <article class="course">
-        <div>
-          <h4>Transient plate contraction between two simultaneous slab
-            windows: Insights from Paleogene tectonics of the Patagonian
-            Andes
-          </h4>
-          Gianni, G; Pesce, A; Soler, S. R.
-          <em>Journal of Geodynamics</em> (2018).
-          doi:
-          <a href="https://www.doi.org/10.1016/j.jog.2018.07.008">
-            10.1016/j.jog.2018.07.008
-          </a>
+        <div class="container paper">
+          <div class="year">2018</div>
+          <div class="details">
+            <h4>Transient plate contraction between two simultaneous slab
+              windows: Insights from Paleogene tectonics of the Patagonian
+              Andes
+            </h4>
+            <ul>
+                <li class="authors">
+                  Gianni, G; Pesce, A; Soler, S. R.
+                </li>
+                <li class="journal">
+                  Journal of Geodynamics
+                </li>
+                <li class="doi">
+                  doi:
+                  <a href="https://www.doi.org/10.1016/j.jog.2018.07.008">
+                    10.1016/j.jog.2018.07.008
+                  </a>
+                </li>
+            </ul>
+          </div>
         </div>
-      </article>
     </section>
     <!-- End publication section -->
 
     <!-- Start talks section -->
     <section>
       <h2>Talks</h2>
-      <article class="course">
+      <div class="container">
         <div class="year"> 2020 </div>
-        <div>
+        <div class="details">
           <p>
             <b>
               <a href="https://github.com/aguspesce/online_seminar">How to manage
@@ -250,11 +293,11 @@
             </a>.
           </p>
         </div>
-      </article>
+      </div>
 
-      <article class="course">
+      <div class="container">
         <div class="year"> 2020 </div>
-        <div>
+        <div class="details">
           <p>
             <b>
               Evaluation of the presence of a weak layer in the numerical
@@ -268,7 +311,7 @@
               10.6084/m9.figshare.12235367</a>
           </p>
         </div>
-      </article>
+      </div>
     </section>
     <!-- End talks section -->
 
@@ -278,7 +321,7 @@
       <div class="skills">
         <div class="column">
           <h3> Tools </h3>
-          <ul>
+          <ul class="tech-skills">
             <li>GNU/Linux</li>
             <li>Git</li>
             <li>JupyterLab</li>
@@ -290,7 +333,7 @@
         </div>
         <div class='column'>
           <h3>Programming</h3>
-          <ul>
+          <ul class="tech-skills">
             <li>Python</li>
             <li>Bash</li>
             <li>Fortran</li>
@@ -300,10 +343,12 @@
             <li>HTML and CSS</li>
           </ul>
         </div>
-        <div>
+        <div class="column">
           <h3>Languages</h3>
-          <p>🇪🇸 Spanish - Native </p>
-          <p>🇬🇧 English - Intermediate</p>
+          <ul class="languages">
+              <li> 🇪🇸 Spanish - Nate </li>
+              <li> 🇬🇧 English - Intermediate</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -323,8 +368,7 @@
         <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
           Creative Commons Attribution 4.0 International License
         </a>.
-      </p>
-      <p>
+        <br>
         Source code available at
         <a href="https://github.com/aguspesce"> aguspesce/website</a>.
       </p>
