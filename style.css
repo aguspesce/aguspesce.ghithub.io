@@ -103,6 +103,7 @@ main section:not(:last-child) {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .about img {
   max-width: 200px;
   border-radius: 60%;
@@ -111,6 +112,7 @@ main section:not(:last-child) {
   margin: 1em;
   align-self: center;
 }
+
 .about-text {
     flex: 1;
     min-width: 500px;
@@ -137,7 +139,7 @@ main section:not(:last-child) {
 }
 
 .color-link {
-  color: #e9e9e9
+  color: black
 }
 
 .paper ul {
