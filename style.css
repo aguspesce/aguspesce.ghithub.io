@@ -28,7 +28,19 @@ section {
 p {
   padding-bottom: 1em;
 }
+
+/* General link style */
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
 /* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+
 
 /* Header style */
 header{
@@ -73,19 +85,7 @@ header a{
   margin: 5px;
   text-align: center;
 }
-/* ------------------------------------- */
-
-
-/* General link style */
-a {
-  color: #1C9C94;
-  text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.5;
-}
-/* -------------------------------------- */
+/* ---------------------------------------------------- */
 
 
 /* Main style */
@@ -97,7 +97,6 @@ main {
 main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
-
 
 .about {
     display: flex;
@@ -120,6 +119,7 @@ main section:not(:last-child) {
 .container {
   display: flex;
 }
+
 .container p {
   padding-bottom: 0.1em;
 }
@@ -130,6 +130,7 @@ main section:not(:last-child) {
   max-width: 140px;
   font-weight: bold;
 }
+
 .details {
     flex: 6;
     margin-bottom: 1.5em;
@@ -142,8 +143,8 @@ main section:not(:last-child) {
 .paper li.journal {
     font-style: italic;
 }
-
-
+/* ---------------------------------------------- */
+/* Skill style */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -173,8 +174,8 @@ main section:not(:last-child) {
 .languages {
     padding-left: 1em;
 }
-
 /* -------------------------------------- */
+
 
 /* footer style */
 footer {
