@@ -1,401 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Agustina Pesce</title>
+    <!-- Bootstrap 4 (before all other CSS files) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
-  <!-- Link fontawsome icons -->
-  <link rel="stylesheet" href="icons/fontawesome-free-5.14.0-web/css/all.css" />
-  <link rel="stylesheet" href=icons/academicons-1.9.0/css/academicons.min.css />
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" type="text/css" />
-  <!-- Link style file-->
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <!-- Link fontawsome icons -->
+    <link
+      rel="stylesheet"
+      href="icons/fontawesome-free-5.14.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href=icons/academicons-1.9.0/css/academicons.min.css
+    />
 
-<body>
-  <!-- Start navigation bar -->
-  <nav>
-    <ul class="nav-links">
-      <li> <a href=#about> About</a></li>
-      <li> <a href=#education> Education</a></li>
-      <li> <a href=#teaching> Teaching</a></li>
-      <li> <a href=#publications> Publications</a></li>
-      <li> <a href=#talks> Talks</a></li>
-      <li> <a href=#skills> Skills</a></li>
-    </ul>
-  </nav>
-  <!-- End navigation bar -->
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- Start header -->
-  <header>
-    <section>
-      <h1>Agustina Pesce</h1>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-      <a href="https://www.github.com/aguspesce/">
-        <i class="fab fa-github-alt"></i>
-      </a>
-      <a href="https://orcid.org/0000-0002-5538-8845">
-        <i class="fab fa-orcid"></i>
-      </a>
-      <a href="https://scholar.google.es/citations?hl=es&user=G2BRVw8AAAAJ">
-        <i class="ai ai-google-scholar-square ai-3x"></i>
-      </a>
-      <a href="mailto:pesce.agustina@gmail.com">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </section>
-  </header>
-  <!-- End header -->
+    <!-- Website title -->
+    <title>Agustina Pesce</title>
 
-  <!-- Start main section -->
-  <main>
-    <!-- Start "About me" section -->
-    <section id="about">
-      <h2>
-        About me
-      </h2>
-      <div class="about">
-        <div class="about-img">
-          <img src="imgs/IMG_20190808_081656775_BURST000_COVER_TOP.jpg" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon-32x32.png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <!-- Burger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="color: cornsilk"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav links -->
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <!-- Let navbar to occupy the entire available space with w-100 -->
+            <div class="navbar-nav nav-fill w-100">
+              <a class="nav-link active" href="#about">About</a>
+              <a class="nav-link active" href="#education">Education</a>
+              <a class="nav-link active" href="#skills">Skills</a>
+              <a class="nav-link active" href="#teaching">Teaching</a>
+              <a class="nav-link active" href="#publiation"> Publications</a>
+              <a class="nav-link active" href="#talks">Talks</a>
+              <a class="nav-link active" href="#contact"> Contacts</a>
+            </div>
+          </div>
         </div>
-        <div class="about-text">
-          <p>
-            I'm a PhD in Gophysics graduated from the
-            <a href="http://www.unsj.edu.ar/"> Universidad Nacional de San Juan
-            </a>
-            and now I have a post-doctoral scholarship by
-            <a href="https://www.conicet.gov.ar/"> CONICET</a>.
-          </p>
+      </nav>
 
-          <p>
-            During my PhD I worked in applied geophysics, processing and
-            analyzing gravity and magnetic data at the
-            <a href="http://http//igsv.unsj.edu.ar/"> Instituto Geofísico
-              Sismológico Volponi
-            </a>.
-            During my current postdoctoral research, I'm studying the
-            subduction zones through geodynamical numerical modeling.
-          </p>
-          <p>
-            I'm also try to contribute on open-source projects, like
-            <a href="https://www.fatiando.org/">Fatiando a Terra </a>, to
-            improve science openness and reproducibility.
-          </p>
-          <p>
-            When I'm not researching or coding I like to spend time outdoors
-            doing rock climbing, trekking and or kayaking. I consider myself
-            an amateur artist as well.
-          </p>
-        </div>
+      <div class="cover dark-bg d-flex flex-column justify-content-center">
+        <h1>AGUSTINA PESCE</h1>
       </div>
-    </section>
-    <!-- End "About me" section -->
+    </header>
 
-    <!-- Start education section -->
-    <section id="education">
-      <h2>Education</h2>
-      <div class="container">
-        <div class="year">2019 - 2021</div>
-        <div class="details">
-          <p>
-            <b>Postdoctoral scholarship by
-              <a href="https://www.conicet.gov.ar/">CONICET</a>
-            </b>
-          </p>
-          <p>
-            Title: Study of the influence of a mantle plume in subduction
-            zones by numerical models.
-          </p>
-        </div>
-      </div>
+    <main>
+      <section id="about">
+        <div class="container justify-content-around">
+          <h2>About me</h2>
 
-      <div class="container">
-        <div class="year">2014 - 2019</div>
-        <div class="details">
-          <p><b>PhD in Geophysics</b></p>
-          <p>
-            FCEFyN,
-            <a href="http://www.unsj.edu.ar/"> Universidad Nacional de San Juan
-            </a>, Argentina.
-          </p>
-          <p>
-            Thesis: Geophysical analysis of the Loncopué Trough, Neuquén,
-            Argentina.
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="year">2005 - 2014</div>
-        <div class="details">
-          <p><b>Licentiate in Physics</b></p>
-          <p>
-            FCEIyA,
-            <a href="https://www.unr.edu.ar"> Universidad Nacional de Rosario
-            </a>, Argentina.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- End education section -->
+          <div class="row justify-content-around">
+            <div class="col-lg-4 text-center">
+              <img
+                class="img-about"
+                src="imgs/IMG_20190808_081656775_BURST000_COVER_TOP.jpg"
+                alt=""
+              />
+            </div>
 
-    <!-- Start teaching section -->
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <div class="container">
-        <div class="year">2019 - Present</div>
-        <div class="details">
-          <p><b>Physics I y Physics II</b></p>
-          <p>
-            <a href="http://exactas.unsj.edu.ar/">
-              FCEFyN, Universidad Nacional de San Juan
-            </a>. Assistant professor of practice.
-          </p>
+            <div class="col-lg-8">
+              <p>
+                I'm a PhD in Gophysics graduated from the
+                <a href="http://www.unsj.edu.ar/">
+                  Universidad Nacional de San Juan
+                </a>
+                and now I have a post-doctoral scholarship by
+                <a href="https://www.conicet.gov.ar/">CONICET</a>.
+              </p>
+              <p>
+                During my PhD I worked in applied geophysics, processing and
+                analyzing gravity and magnetic data at the
+                <a href="http://http//igsv.unsj.edu.ar/">
+                  Instituto Geofísico Sismológico Volponi</a
+                >. During my current postdoctoral research, I'm studying the
+                subduction zones through geodynamical numerical modeling.
+              </p>
+              <p>
+                I'm also try to contribute on open-source projects, like
+                <a href="https://www.fatiando.org/">Fatiando a Terra</a>, to
+                improve science openness and reproducibility.
+              </p>
+              <p>
+                When I'm not researching or coding I like to spend time outdoors
+                doing rock climbing, trekking and or kayaking. I consider myself
+                an amateur artist as well.
+              </p>
+              <p>
+                If you would to know more about me, you can access an
+                <a href="">HTML version of my Curriculum Vitae</a>.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="container">
-        <div class="year">2017</div>
-        <div class="details">
-          <p>
-            <b>
-              <a class="color-link" href="https://santisoler.github.io/teaching/latex.html">
-                Introductory course to LATEX: How to produce high quality
-                documents
-              </a>
-            </b>
-          </p>
+      <section class="color-bg" id="education">
+        <div class="container">
+          <h2>Education</h2>
+
+          <div class="row justify-content-around">
+            <div class="col-md-5">
+              <p><b>PhD in Geophysics</b></p>
+            </div>
+            <div class="col-md-7">
+              <p>
+                FCEFyN,
+                <a href="http://www.unsj.edu.ar/">
+                  Universidad Nacional de San Juan</a
+                >, Argentina.
+              </p>
+              <p>
+                Thesis: Geophysical analysis of the Loncopué Trough, Neuquén,
+                Argentina.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-md-5">
+              <p><b>Licentiate in Physics</b></p>
+            </div>
+            <div class="col-md-7">
+              <p>
+                FCEIyA,
+                <a href="https://www.unr.edu.ar">
+                  Universidad Nacional de Rosario</a
+                >, Argentina.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- End teaching section -->
+      </section>
 
-    <!-- Start publication section -->
-    <section id="publications">
-      <h2>Last publications</h2>
-      <div class="container paper">
-        <div class="year">2020</div>
-        <div class="details">
-          <h4>
-            Pliocene to Quaternary Retroarc Extension in the Neuquén Basin:
-            Geophysical Characterization of the Loncopué Trough.
-          </h4>
-          <ul>
-            <li class="authors">
-              Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
-            </li>
-            <li class="journal">
-              Opening and closure of the Neuquén Basin in the Southern Andes,
-              Springer
-            </li>
-            <li class="doi">
-              doi:
-              <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
-                10.1007/978-3-030-29680-3
-              </a>
-            </li>
-          </ul>
+      <section id="skills">
+        <div class="container">
+          <h2>Technical Skills</h2>
+
+          <div class="row">
+            <div class="col">
+              <h3>Tools</h3>
+              <ul class="">
+                <li>GNU/Linux</li>
+                <li>Git</li>
+                <li>JupyterLab</li>
+                <li>GMT</li>
+                <li>Neovim and Visual Studio Code</li>
+                <li>Inkscape and GIMP</li>
+                <li>Bash tools</li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <h3>Programming</h3>
+              <ul class="">
+                <li>Python</li>
+                <li>Bash</li>
+                <li>Fortran</li>
+                <li>C</li>
+                <li>LaTex</li>
+                <li>Markdown</li>
+                <li>HTML and CSS</li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <h3>Languages</h3>
+              <ul class="languages">
+                <li>🇪🇸 Spanish - Nate</li>
+                <li>🇬🇧 English - Intermediate</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="container paper">
-        <div class="year">2020</div>
-        <div class="details">
-          <h4>
-            Plume Subduction Beneath the Neuquén Basin and the Last Mountain
-            Building Stage of the Southern Central Andes
-          </h4>
-          <ul>
-            <li class="authors">
-              Gianni, G; Pesce, A; García, H. P. A; Lupari, M; Correa-Otto, S;
-              Nacif, S; Folguera, A.
-            </li>
-            <li class="journal">
-              Opening and Closure of the Neuquén Basin in the Southern Andes,
-              Springer
-            </li>
-            <li class="doi">
-              doi:
-              <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
-                10.1007/978-3-030-29680-3
-              </a>
-            </li>
-          </ul>
+      <section class="color-bg" id="teaching">
+        <div class="container">
+          <h2>Teaching</h2>
+
+          <div class="row">
+            <div class="col-md-3">2019 - Present</div>
+            <div class="col">
+              <p><b>Physics I y Physics II</b></p>
+              <p>
+                <a href="http://exactas.unsj.edu.ar/">
+                  FCEFyN, Universidad Nacional de San Juan</a
+                >. Assistant professor of practice.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">2017</div>
+            <div class="col">
+              <p>
+                <b>
+                  <a
+                    class="color-link"
+                    href="https://santisoler.github.io/teaching/latex.html"
+                  >
+                    Introductory course to LATEX: How to produce high quality
+                    documents
+                  </a>
+                </b>
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="container paper">
-        <div class="year">2019</div>
-        <div class="details">
-          <h4>
-            Magnetic characterization of a retroarc extensional basin: The
-            Loncopué Trough.
-          </h4>
-          <ul>
-            <li class="authors">
-              Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.
-            </li>
-            <li class="journal">
-              Journal of South American Earth Sciences
-            </li>
-            <li class="doi">
-              doi:
+      <section id="publications">
+        <div class="container">
+          <h2>Last publications</h2>
+
+          <div class="row">
+            <div class="col-md-2"><p>2020</p></div>
+            <div class="col">
+              <p>
+                <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
+                  Pliocene to Quaternary Retroarc Extension in the Neuquén
+                  Basin: Geophysical Characterization of the Loncopué Trough.
+                </a>
+              </p>
+              <p>Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.</p>
+              <p>
+                <i>
+                  Opening and closure of the Neuquén Basin in the Southern
+                  Andes, Springer
+                </i>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2"><p>2020</p></div>
+            <div class="col">
+              <p>
+                <a href="https://www.doi.org/10.1007/978-3-030-29680-3">
+                  Plume Subduction Beneath the Neuquén Basin and the Last
+                  Mountain Building Stage of the Southern Central Andes
+                </a>
+              </p>
+              <p>
+                Gianni, G; Pesce, A; García, H. P. A; Lupari, M; Correa-Otto, S;
+                Nacif, S; Folguera, A.
+              </p>
+              <p>
+                <i>
+                  Opening and Closure of the Neuquén Basin in the Southern
+                  Andes, Springer
+                </i>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2"><p>2019</p></div>
+            <div class="col">
               <a href="https://www.doi.org/10.1016/j.jsames.2018.11.001">
-                10.1016/j.jsames.2018.11.001
+                Magnetic characterization of a retroarc extensional basin: The
+                Loncopué Trough.
               </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+              <p>Pesce, A; Gianni, G; Giménez, M. E; Folguera, A.</p>
+              <p><i> Journal of South American Earth Sciences</i></p>
+            </div>
+          </div>
 
-      <div class="container paper">
-        <div class="year">2019</div>
-        <div class="details">
-          <h4>
-            Modelo preliminar 3-D de susceptibilidad magnética del volcán
-            Tromen.
-          </h4>
-          <ul>
-            <li class="authors">
-              Pesce, A; Lupari, M; Gianni, G; Nacif, S; Gimenez, M.
-            </li>
-            <li class="journal">
-              Revista de la Asociación Geológica Argentina
-            </li>
-          </ul>
-        </div>
-      </div>
+          <div class="row">
+            <div class="col-md-2"><p>2019</p></div>
+            <div class="col">
+              <a href="https://revista.geologica.org.ar/raga/article/view/129">
+                Modelo preliminar 3-D de susceptibilidad magnética del volcán
+                Tromen.
+              </a>
+              <p>Pesce, A; Lupari, M; Gianni, G; Nacif, S; Gimenez, M.</p>
+              <p><i> Revista de la Asociación Geológica Argentina</i></p>
+            </div>
+          </div>
 
-      <div class="container paper">
-        <div class="year">2018</div>
-        <div class="details">
-          <h4>
-            Transient plate contraction between two simultaneous slab windows:
-            Insights from Paleogene tectonics of the Patagonian Andes
-          </h4>
-          <ul>
-            <li class="authors">
-              Gianni, G; Pesce, A; Soler, S. R.
-            </li>
-            <li class="journal">
-              Journal of Geodynamics
-            </li>
-            <li class="doi">
-              doi:
+          <div class="row">
+            <div class="col-md-2"><p>2018</p></div>
+            <div class="col">
               <a href="https://www.doi.org/10.1016/j.jog.2018.07.008">
-                10.1016/j.jog.2018.07.008
+                Transient plate contraction between two simultaneous slab
+                windows: Insights from Paleogene tectonics of the Patagonian
+                Andes
               </a>
-            </li>
-          </ul>
+              <p>Gianni, G; Pesce, A; Soler, S. R.</p>
+              <p><i>Journal of Geodynamics</i></p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- End publication section -->
+      </section>
 
-    <!-- Start talks section -->
-    <section id="talks">
-      <h2>Talks</h2>
+      <section class="color-bg" id="talks">
+        <div class="container">
+          <h2>Talks</h2>
+
+          <div class="row">
+            <div class="col-md-2">2020</div>
+            <div class="col">
+              <p>
+                <a
+                  class="color-link"
+                  href="https://github.com/aguspesce/online_seminar"
+                >
+                  How to manage multi-dimensional arrays?
+                </a>
+              </p>
+              <p>
+                On-line seminar of the tectonics laboratory,
+                <a href="https://www.iag.usp.br/">
+                  IAG, Universidade de Sao Paulo
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2">2020</div>
+            <div class="col">
+              <p>
+                <a href="https://doi.org/10.6084/m9.figshare.12235367.v1">
+                  Evaluation of the presence of a weak layer in the numerical
+                  simulation of lithospheric subduction
+                </a>
+              </p>
+              <p>
+                Presented at
+                <a href="https://egu2020.eu/">EGU General Assembly 2020</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact and Profiles</h2>
+
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:pesce.agustina@gmail.com">
+              pesce.agustina@gmail.com
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github-alt"></i>
+            <a href="https://www.github.com/aguspesce/">aguspesce </a>
+          </p>
+          <p>
+            <i class="fab fa-orcid"></i>
+            <a href="https://orcid.org/0000-0002-5538-8845">
+              ORCID: 0000-0002-5538-8845
+            </a>
+          </p>
+          <p>
+            <i class="ai ai-google-scholar-square ai-3x"></i>
+            <a
+              href="https://scholar.google.es/citations?hl=es&amp;user=G2BRVw8AAAAJ"
+              >Agustina Pesce
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
       <div class="container">
-        <div class="year">2020</div>
-        <div class="details">
-          <p>
-            <b>
-              <a class="color-link" href="https://github.com/aguspesce/online_seminar">
-                How to manage multi-dimensional arrays?
-              </a>
-            </b>
-          </p>
-          <p>
-            On-line seminar of the tectonics laboratory,
-            <a href="https://www.iag.usp.br/">
-              IAG, Universidade de Sao Paulo
-            </a>.
-          </p>
-        </div>
+        <p>
+          Except where otherwise noted, this work by
+          <a
+            xmlns:cc="https://creativecommons.org/ns#"
+            href="/"
+            property="cc:attributionName"
+            rel="cc:attributionURL"
+          >
+            Agustina Pesce
+          </a>
+          is licensed under a
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+            Creative Commons Attribution 4.0 International License</a
+          >.
+          <br />
+          Source code available at
+          <a
+            href="https://github.com/aguspesce/aguspesce.github.io/tree/master"
+          >
+            aguspesce/aguspesce.github.io</a
+          >.
+        </p>
       </div>
+    </footer>
 
-      <div class="container">
-        <div class="year">2020</div>
-        <div class="details">
-          <p>
-            <b>
-              Evaluation of the presence of a weak layer in the numerical
-              simulation of lithospheric subduction
-            </b>
-          </p>
-          <p>
-            Presented at
-            <a href="https://egu2020.eu/">EGU General Assembly 2020</a>. doi:
-            <a href="https://doi.org/10.6084/m9.figshare.12235367.v1">
-              10.6084/m9.figshare.12235367</a>
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- End talks section -->
-
-    <!-- Start skills section -->
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <div class="skills">
-        <div class="column">
-          <h3>Tools</h3>
-          <ul class="tech-skills">
-            <li>GNU/Linux</li>
-            <li>Git</li>
-            <li>JupyterLab</li>
-            <li>GMT</li>
-            <li>Neovim and Visual Studio Code</li>
-            <li>Inkscape and GIMP</li>
-            <li>Bash tools</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h3>Programming</h3>
-          <ul class="tech-skills">
-            <li>Python</li>
-            <li>Bash</li>
-            <li>Fortran</li>
-            <li>C</li>
-            <li>LaTex</li>
-            <li>Markdown</li>
-            <li>HTML and CSS</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h3>Languages</h3>
-          <ul class="languages">
-            <li>🇪🇸 Spanish - Nate</li>
-            <li>🇬🇧 English - Intermediate</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- End skills section -->
-  </main>
-  <!-- End main section -->
-
-  <!-- Start footer -->
-  <footer>
-    <div align="center">
-      <p>
-        Except where otherwise noted, this work by
-        <a xmlns:cc="https://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">
-          Agustina Pesce
-        </a>
-        is licensed under a
-        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-          Creative Commons Attribution 4.0 International License </a>.
-        <br />
-        Source code available at
-        <a href="https://github.com/aguspesce/aguspesce.github.io/tree/master">
-          aguspesce/aguspesce.github.io
-        </a>.
-      </p>
-    </div>
-  </footer>
-  <!-- End footer -->
-</body>
-
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
