@@ -40,6 +40,21 @@ a:hover {
   color: #1c9c94;
 }
 
+/* Icons style */
+.fab,
+.ai,
+.fas {
+  border: 1px solid #2e2e2e;
+  border-radius: 50%;
+  font-size: 1.3em;
+  color: #2e2e2e;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
 /* ------------------- */
 /* Custom color styles */
 /* ------------------- */
@@ -88,21 +103,6 @@ header a {
   /* font-weight: bold; */
 }
 
-/* Icons style */
-.fab,
-.ai,
-.fas {
-  border: 1px solid #2e2e2e;
-  border-radius: 50%;
-  font-size: 1.3em;
-  color: #2e2e2e;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  margin: 5px;
-  text-align: center;
-}
-
 /* ---- */
 /* Main */
 /* ---- */
@@ -116,8 +116,11 @@ section {
   height: auto;
   border-radius: 20%;
   max-width: 300px;
-  box-shadow: 5px 5px 5px #2e2e2e;
   margin-bottom: 1.1em;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px #2e2e2e;
 }
 
 /* Change style of title on small size displays */
