@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 4 (before all other CSS files) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link fontawsome icons -->
+    <link
+      rel="stylesheet"
+      href="icons/fontawesome-free-5.14.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href=icons/academicons-1.9.0/css/academicons.min.css
+    />
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Website title -->
+    <title>Agustina Pesce</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon-32x32.png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <!-- Burger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="color: cornsilk"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav links -->
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <!-- Let navbar to occupy the entire available space with w-100 -->
+            <div class="navbar-nav nav-fill w-100">
+              <a class="nav-link active" href="index.html/#about">About</a>
+              <a class="nav-link active" href="index.html/#education">Education</a>
+              <a class="nav-link active" href="index.html/#appointments">Appointments</a>
+              <a class="nav-link active" href="index.html/#publiation"> Publications</a>
+              <a class="nav-link active" href="index.html/#talks">Talks</a>
+              <a class="nav-link active" href="index.html/#community"> Community</a>
+              <a class="nav-link active" href="#cv">CV</a>
+              <a class="nav-link active" href="#contact"> Contacts</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <div class="cover dark-bg d-flex flex-column justify-content-center"> -->
+      <!--   <h1>AGUSTINA PESCE</h1> -->
+      <!-- </div> -->
+    </header>
+
+    <main>
+      <!-- About -->
+      <section >
+        <div class="container">
+          <h2>My Story</h2>
+          <p>
+            I'm a Lic. in Physics graduated at the
+            <a href="https://unr.edu.ar/">Universidad Nacional de Rosario</a>
+            and a PhD in Geophysics from the <a href="https://www.unsj.edu.ar/">Universidad Nacional de San Juan</a>.
+          </p>
+          <p>
+            During my PhD I researched in applied geophysics, processing and
+            analyzing gravity and magnetic data at the
+            <a href="https://igsv.unsj.edu.ar/">Instituto Geofísico Sismológico Volponi</a>.
+            After that, I made a post-doctoral scholarship with
+            <a href="https://www.researchgate.net/profile/Victor-Sacek">Dr. Victor Sacek</a> from the
+            <a href="https://www.iag.usp.br/">Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG-USP), Universidade de Sao Paulo, Brazil</a>
+            with the support of
+            <a href="https://www.conicet.gov.ar/">CONICET</a>.
+            I started to study subduction zones through geodynamical numerical
+            modeling using
+            <a href="https://ggciag.github.io/mandyoc/">Mandyoc code</a>.
+          </p>
+          <p>
+            During my PhD and my postdoc, I had the opportunity to learn and
+            improve my Python programming skills to process, visualize and
+            analyze data.
+          </p>
+          <p>
+            Being a longtime GNU/Linux user and Free Software supporter, I'm
+            also committed to contribute to open-source software projects to
+            improve science openness and reproducibility.
+            In this sense, I've made contributions to the libraries of the
+            <a href="https://fatiando.org">Fatiando a Terra project</a>
+            (open-source tools for geophysics) and lately to
+            <a href="https://github.com/ggciag/mandyoc">Mandyoc</a>
+            (a mantle dynamics simulator).
+            I have recently become maintainer of one of the core lessons of
+            <a href="https://carpentries.org/">The Carpentries</a>.
+            Moreover, I've started developing
+            <a href="https://github.com/aguspesce/tapioca">tapIOca</a>,
+            a set of Python tools to load, visualize and analyze the outputs
+            of Mandyoc.
+          </p>
+          <p>
+            Besides my research, I love teaching and sharing my knowledge.
+            I'm an assistant professor in Physics courses at the Universidad
+            Nacional de San Juan, Argentina and  I've taught a few different
+            Python and git tutorials.
+            I also have the pleasure to be part of the CoCo program, which is
+            an NSF-funded bilingual project addressed to Latinx and Hispanic
+            students to give them skills in programming and science communication.
+            With the intention of improving my teaching skills I became a
+            certified
+            <a href="https://carpentries.org/">Carpentries</a> instructor.
+          </p>
+        </div>
+      </section>
+
+
+      <!-- CV -->
+      <section class="color-bg" id="cv">
+        <div class="container">
+          <h2>Curriculum Vitae</h2>
+          <p>
+            If you would to know more details about my profesional profile, you
+            can access an
+            <a href="https://aguspesce.github.io/cv">
+              HTML version of my Curriculum Vitae</a
+            >
+            or download PDF version of the same curriculum:
+          </p>
+          <ul>
+            <li>
+              <a class="btn btn-primary" role="button"
+                href="https://raw.githubusercontent.com/aguspesce/cv/gh-pages/cv_en.pdf"
+                >Download CV
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End CV -->
+
+      <!-- Contacts -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact and Profiles</h2>
+
+          <p>
+            <i class="fas fa-envelope icon-color"></i>
+            <a href="mailto:pesce.agustina@gmail.com">
+              pesce.agustina@gmail.com
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-github-alt icon-color"></i>
+            <a href="https://www.github.com/aguspesce/">aguspesce </a>
+          </p>
+          <p>
+            <i class="fab fa-orcid icon-color"></i>
+            <a href="https://orcid.org/0000-0002-5538-8845">
+              ORCID: 0000-0002-5538-8845
+            </a>
+          </p>
+          <p>
+            <i class="ai ai-google-scholar-square ai-3x icon-color"></i>
+            <a
+              href="https://scholar.google.es/citations?hl=es&amp;user=G2BRVw8AAAAJ"
+              >Agustina Pesce
+            </a>
+          </p>
+          <p>
+            <i class="fab fa-linkedin-in icon-color"></i>
+            <a
+              href="https://www.linkedin.com/in/agustina-pesce-13179495/"
+              >Agustina Pesce
+            </a>
+          </p>
+
+
+        </div>
+      </section>
+      <!-- End contact -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          Except where otherwise noted, this work by
+          <a
+            xmlns:cc="https://creativecommons.org/ns#"
+            href="/"
+            property="cc:attributionName"
+            rel="cc:attributionURL"
+          >
+            Agustina Pesce
+          </a>
+          is licensed under a
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+            Creative Commons Attribution 4.0 International License</a
+          >.
+          <br />
+          Source code available at
+          <a
+            href="https://github.com/aguspesce/aguspesce.github.io/tree/master"
+          >
+            aguspesce/aguspesce.github.io</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
