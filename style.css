@@ -59,7 +59,7 @@ nav .container {
   text-align: center;
   color: #daf0f9;
   text-shadow: 2px 3px 5px black;
-  background-image: url("imgs/cover2.jpg");
+  background-image: url("imgs/naranja.png");
   background-size: cover;
 }
 
@@ -150,7 +150,6 @@ ul.social-icons {
   border: 1px solid #2e2e2e;
   color: #2e2e2e;
 }
-
 
 /* ------ */
 /* Footer */
