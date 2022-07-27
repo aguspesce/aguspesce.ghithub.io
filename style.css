@@ -116,16 +116,41 @@ a:hover {
 .fab,
 .ai,
 .fas {
-  border: 1px solid #2e2e2e;
+  border: 1px solid #daf0f9;
   border-radius: 50%;
-  font-size: 1.3em;
-  color: #2e2e2e;
+  font-size: 1.5em;
+  color: #daf0f9;
   width: 1.5em;
   height: 1.5em;
   line-height: 1.5em;
-  margin: 5px;
+  margin: 0.5em;
   text-align: center;
 }
+
+.btn-primary {
+  background-color: #1c9c94;
+  border-color: #1c9c94;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1c9c94;
+  border-color: #1c9c94;
+}
+
+ul.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-color {
+  border: 1px solid #2e2e2e;
+  color: #2e2e2e;
+}
+
 
 /* ------ */
 /* Footer */
