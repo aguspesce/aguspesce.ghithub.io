@@ -25,6 +25,32 @@ h3 {
   font-size: 1.5em;
 }
 
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Change style of title on small size displays */
+@media (max-width: 940px) {
+  .img-about {
+    max-width: 200px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1c9c94;
+}
+
+a:hover {
+  opacity: 0.5;
+  color: #1c9c94;
+}
+
 /* ------------------- */
 /* Custom color styles */
 /* ------------------- */
@@ -71,14 +97,9 @@ header a {
   color: #daf0f9;
 }
 
-/* ---- */
-/* Main */
-/* ---- */
-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
+/* --------- */
+/* About img */
+/* --------- */
 .img-about {
   width: 100%;
   height: auto;
@@ -91,28 +112,9 @@ section {
   box-shadow: 5px 5px 5px #2e2e2e;
 }
 
-/* Change style of title on small size displays */
-@media (max-width: 940px) {
-  .img-about {
-    max-width: 200px;
-  }
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #1c9c94;
-}
-
-a:hover {
-  opacity: 0.5;
-  color: #1c9c94;
-}
-
+/* ----------- */
 /* Icons style */
+/* ----------- */
 .fab,
 .ai,
 .fas {
@@ -127,6 +129,9 @@ a:hover {
   text-align: center;
 }
 
+/* ------ */
+/* Button */
+/* ------ */
 .btn-primary {
   background-color: #1c9c94;
   border-color: #1c9c94;
@@ -151,10 +156,22 @@ ul.social-icons {
   color: #2e2e2e;
 }
 
+/* -------------- */
+/* Community logo */
+/* -------------- */
+.community {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.community img {
+    max-width: 150px;
+    width: 90%;
+}
+
 /* ------ */
 /* Footer */
 /* ------ */
-
 footer {
   text-align: center;
   color: #daf0f9;
